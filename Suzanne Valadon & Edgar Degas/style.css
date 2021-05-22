@@ -1,0 +1,154 @@
+body{
+  background-color: #564a1a;
+}
+@font-face {
+  font-family: Neucha-Regular;
+  src: url(Neucha-Regular.ttf);
+}
+.right{
+  float: left;
+  position: fixed;
+
+
+  /* background: white; */
+  top: 150px;
+  margin: 0;
+  font-weight: 150;
+  opacity: 0.6;
+  left: 30px;
+}
+.Bigtitle{
+  background-color:#edf1be;
+  position:fixed;
+
+  height: 100px;
+  width: 200px;
+  margin: 0;
+  left: 30px;
+}
+#name{
+  color:#6e9173;
+  font-family:  Neucha-Regular;
+  font-size: 20px;
+  margin-left: 25px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+#book{
+  color:#6e9173;
+  font-size: 18px;
+  margin-left: 35px;
+  margin-right: 10px;
+  margin-top: 0;
+  font-weight: 500;
+
+}
+.right a{
+  color:white;
+  display: flex;
+  margin-bottom: 10px;
+    text-decoration: none;
+
+
+}
+.painting{
+  position: absolute;
+  /* background-color: red; */
+  display: flex;
+ flex-direction: column;
+ top: 80px;
+  left: 280px;
+
+  /* column-width: 700px; */
+}
+.box{
+  /* position: relative;
+  margin: 10px;
+  background-color: white;
+  column-gap: normal;
+  column-count:3;
+  -webkit-column-count:3; */
+  /* column-rule:4px outset #ff00ff; */
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  -webkit-column-fill: auto;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  -moz-column-fill: auto;
+  column-count: 2;
+  column-gap: 45px;
+  column-fill: auto;
+  -webkit-column-count: 2;
+  margin-bottom: 150px;
+  padding-top: 40px;
+
+}
+/* #hotel{
+  position: relative;
+  width: 400px;
+  margin: 0;
+
+
+}
+#hotel2{
+  position: relative;
+  width: 400px;
+  margin: 0;
+
+}
+#hotel3{
+  position: relative;
+  width: 200px;
+  margin: 0;
+
+} */
+.hotelpainting{
+  /* break-inside: avoid;
+  width:250px;
+  margin: 0; */
+  /* background-color: #ee01ca; */
+  display: block;
+  width:550px;
+  word-wrap: break-word;
+  margin-bottom: 50px;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+  position: relative;
+
+
+
+}
+#intro{
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+  margin: 0;
+  opacity: 0;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  vertical-align: middle;
+  background-color: #1f2322;
+  padding-left: 10%;
+
+  margin: 0;
+
+
+}
+#intro p{
+margin-top: 30px;
+color: white;
+}
+
+
+#intro:hover{
+  opacity:0.8;
+
+}
+
+#hotelpainting{
+  width: 550px;
+}
